@@ -19,15 +19,15 @@ const transporter = nodemailer.createTransport({
 
   service:'gmail',
   auth:{
-  user:'tawheedabashir2020@gmail.com',
-  pass:'kjuq oonn moqg gijn'
+  user:'xcitetourismtourandtravels@gmail.com',
+  pass:'pglb avsc xfbz pdzk'
 
 
   }
 })
 const  mailOptions = {
     from: req.body.email,
-    to:'tawheedabashir2020@gmail.com',
+    to:'xcitetourismtourandtravels@gmail.com',
     subject:`Message from ${req.body.email}: ${req.body.name}`,
     text: req.body.message
 
