@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
       
 
         const whatsappMessage = `Package: ${package}%0AName: ${name}%0AEmail: ${email}%0APhone: ${phone}`;
-        const whatsappUrl = `https://wa.me/7889703023?text=${whatsappMessage}`;
+        const whatsappUrl = `https://wa.me/9682653655?text=${whatsappMessage}`;
 
         window.open(whatsappUrl, '_blank');
         console.log("Form submitted");
