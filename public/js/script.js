@@ -38,4 +38,26 @@ window.addEventListener('resize', () => {
 });
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    const galleryItems = document.querySelectorAll('.gallery-item img');
+    const imageViewer = document.getElementById('image-viewer');
+    const viewerImg = document.getElementById('viewer-img');
+    const closeBtn = document.getElementById('close-btn');
 
+    galleryItems.forEach(item => {
+        item.addEventListener('click', function () {
+            viewerImg.src = this.src;
+            imageViewer.classList.remove('hidden');
+        });
+    });
+
+    closeBtn.addEventListener('click', function () {
+        imageViewer.classList.add('hidden');
+    });
+
+    imageViewer.addEventListener('click', function (e) {
+        if (e.target !== viewerImg && e.target !== closeBtn) {
+            imageViewer.classList.add('hidden');
+        }
+    });
+});
