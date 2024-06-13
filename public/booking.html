@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Your Trip</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body,
+      html {
+        height: 100%;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        display: flex;
+        height: 100%;
+      }
+
+      .left-side {
+        flex: 1;
+        height: 100%;
+      }
+
+      .left-side img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .right-side {
+        flex: 1;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .right-side h1 {
+        margin-bottom: 20px;
+      }
+
+      .contact-form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 400px;
+      }
+
+      label {
+        margin-top: 10px;
+      }
+
+      .form-control {
+        padding: 10px;
+        margin-top: 5px;
+      }
+
+      .btn {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  
+   
+          
+      </head>
+      <body>
+        <div class="container">
+          <div class="left-side">
+              <img src="images/pakages1.jpg" alt="Travel Image">
+          </div>
+          <div class="right-side">
+              <h1>Book Your Trip</h1>
+              <form id="booking-form">
+        
+         
+          <input type="text" id="Name" name ="name" class="form-control" placeholder="Your Name" required >
+          
+          <input type="email" id="email" name ="email" class="form-control" placeholder="Your Email" required >
+       
+          <input type="tel" id="phone" name ="phone" class="form-control" placeholder="Your phone number" required >
+          
+          <input type="textarea" id="message" name ="message" class="form-control" placeholder="message" required>
+          
+          <input type="submit" class="btn" value="Send Message" />
+        </form>
+      
+      
+        <script src="js/ok.js"></script>
+       
+   
+    
+      
+       
+      </body>
+    </html>
+  </body>
+</html>

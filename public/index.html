@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Xcite Tourism</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- fonts -->
+    <link rel="stylesheet" href="font/fonts.css" />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/utility.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,200&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- navbar  -->
+    <nav class="navbar">
+      <div class="container flex">
+        <a href="index.html" class="site-brand"> Xcite<span>Tourism</span> </a>
+
+        <button type="button" id="navbar-show-btn" class="flex">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div id="navbar-collapse">
+          <button type="button" id="navbar-close-btn" class="flex">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contactform.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="Packages.html" class="nav-link">Packages</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar  -->
+
+    <!-- header -->
+    <header class="flex">
+      <div class="container">
+        <div class="header-title">
+          <h1>Leave Your Footprints</h1>
+          <p>"Wherever you go becomes a part of you somehow"</p>
+        </div>
+        <!-- <div class = "header-form">
+                     <h2>Choose your Travel location:</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="Destination name">
+                        <input type="date" class = "form-control" placeholder="Date">
+                        <input type="number" class = "form-control" placeholder="Price ($)">
+                        <input type="submit" class = "btn" value = "Search">
+                    </form>
+                </div>  -->
+      </div>
+    </header>
+    <!-- header -->
+
+    <!-- featured section -->
+    <section id="featured" class="py-4">
+      <div class="container">
+        <div class="title-wrap">
+          <span class="sm-title">Journey is more beautiful than destination</span>
+          <h2 class="lg-title">featured places</h2>
+        </div>
+
+        <div class="featured-row">
+          <div class="featured-item my-2 shadow">
+            <img src="images/pahalgam.jpg" alt="featured place" />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                Pahalgam
+              </span>
+              <div>
+                <p class="text">Pahalgam isn't just a destination, it's an invitation to adventure. The Aru Valley and Betaab Valley, nearby jewels, offer panoramic vistas of untouched landscapes.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-item my-2 shadow">
+            <img src="images/gulmarg.jpeg.jpg" alt="featured place" />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                Gulmarg
+              </span>
+              <div>
+                <p class="text">Gulmarg has attracted millions of tourists throughout its existence with the scenic beauty of the Himalayan Mountains in the back drop.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-item my-2 shadow">
+            <img src="images/sonamarg.jpg" alt="featured place" />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                Sonamarg
+              </span>
+              <div>
+                <p class="text">A place surrounded by the beautiful Himalayas, a must visit in the itinerary of Kashmir</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-item my-2 shadow">
+            <img src="images/mughalgardens.jpg" alt="featured place" />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                Mughal gardens
+              </span>
+              <div>
+                <p class="text">Mughal Gardens in Srinagar are basically the gardens that were built during the reign on Mughal Emperors. Influenced heavily by the concept of Persian Gardens or the char bagh.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-item my-2 shadow">
+            <img src="images/ganderbal.jpeg.jpg" alt="featured place" />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                Ganderbal
+              </span>
+              <div>
+                <p class="text">
+                  Ganderbal is not just about natural beauty; it's also steeped in cultural heritage. The historic Mamleshwar Temple, dedicated to Lord Shiva, stands as a testament to the region's rich history and religious significance.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-item my-2 shadow">
+            <img src="images/boulvard.jpg" alt="featured place" />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                Boulevard
+              </span>
+              <div>
+                <p class="text">The Boulevard offers breathtaking views of Dal Lake, with its pristine waters reflecting the surrounding mountains and vibrant houseboats..</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of featured section -->
+
+    <!-- services section -->
+    <section id="services" class="py-4">
+      <div class="container">
+        <div class="title-wrap">
+          <span class="sm-title">know about services that we offer</span>
+          <h2 class="lg-title">Our services</h2>
+        </div>
+
+        <div class="services-row">
+          <div class="services-item">
+            <span class="services-icon">
+              <i class="fas fa-hotel"></i>
+            </span>
+            <h3>Luxurious Hotel</h3>
+            <p class="text">
+              Indulge in the pinnacle of refined luxury at our distinguished hotel, where opulence meets unparalleled service. Our commitment to creating an extraordinary experience is evident from the moment you step into our sophisticated lobby..
+            </p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+
+          <div class="services-item">
+            <span class="services-icon">
+              <i class="fas fa-map-marked-alt"></i>
+            </span>
+            <h3>Trave Guide</h3>
+            <p class="text">
+              Embark on a journey of discovery with our expert travel guides, your trusted companions in exploring the world's wonders. At Xcite tourism, we understand that travel is not just about reaching a destination; it's about the experiences,
+              the stories, and the memories that unfold along the way.
+            </p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+
+          <div class="services-item">
+            <span class="services-icon">
+              <i class="fas fa-money-bill"></i>
+            </span>
+            <h3>Suitable Price</h3>
+            <p class="text">
+              At Xcite tourism, we take pride in providing our customers with not just affordable options but truly suitable prices that reflect the value of the exceptional experiences we offer. Our commitment to transparency ensures that you know
+              exactly what you're paying for, with no hidden fees or unexpected surprises
+            </p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of services section -->
+
+    <!-- testimonials section -->
+    <section id="testimonials" class="py-4">
+      <div class="container">
+        <div class="title-wrap">
+          <span class="sm-title">what our clients say about us</span>
+          <h2 class="lg-title">testimonials</h2>
+        </div>
+
+        <div class="test-row">
+          <div class="test-item">
+            <div class="test-item-info">
+              <img src="images/user.png" alt="testimonial" />
+              <div>
+                <p class="text">Exploring the world through your tourism packages has been a journey of awe and wonder. The destinations you curate are truly magical</p>
+
+                <h3>Abdul Hamid</h3>
+                <p class="text">Trip to kashmir</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="test-item">
+            <div class="test-item-info">
+              <img src="images/user.png" alt="testimonial" />
+              <div>
+                <p class="text">The attention to detail in your tourism services is exceptional. Every moment is carefully crafted, making the experience unforgettable!</p>
+
+                <h3>Abiro</h3>
+                <p class="text">Trip to pahalgam</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="test-item">
+            <div class="test-item-info">
+              <img src="images/user.png" alt="testimonial" />
+              <div>
+                <p class="text">Your commitment to customer satisfaction shines through. The service is not just about travel; it's about creating lasting memories.</p>
+
+                <h3>Sabeena</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of testimonials section -->
+
+    <!-- video section -->
+    <!-- <section id = "video">
+            <div class = "video-wrapper flex">
+                <video loop>
+                    <source src = "videos/video-section.mp4" type = "video/mp4">
+                </video>
+                <button type = "button" id = "play-btn">
+                    <i class = "fas fa-play"></i>
+                </button>
+            </div>
+        </section> -->
+    <!-- end of video section -->
+
+    <!-- footer -->
+    <footer class="py-4">
+      <div class="container footer-row">
+        <div class="footer-item">
+          <a href="index.html" class="site-brand"> Xcite<span>Tourism</span> </a>
+          <p class="text">"At Xcite tourism, we believe in turning moments into memories. Join us on a voyage where every step is a story and every destination is an adventure."</p>
+        </div>
+
+        <div class="footer-item">
+          <h2>Follow us on:</h2>
+          <ul class="social-links">
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=61556171453907&mibextid=rS40aB7S9Ucbxw6v">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/xcitetourandtravels?igsh=d3p2MjJsZ3VjNTQx&utm_source=qr">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/message/WAXTO3HZMCUCG1">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/XciteAnd97401/photo">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <!-- <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li> -->
+          </ul>
+        </div>
+
+        <div class="footer-item">
+          <h2>Popular Places:</h2>
+          <ul>
+            <li>Pahalgam</li>
+            <li>Gulmarg</li>
+            <li>Sonamarg</li>
+            <li>Mughal gardens</li>
+            <li>Ganderbal</li>
+          </ul>
+        </div>
+
+        <!-- <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div> -->
+        <p>Copyright © 2024 <span style="font-family: Montserrat">Xcite</span>. Developed by <span style="font-family: Montserrat">Tawheeda Bashir</span></p>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
