@@ -2,10 +2,10 @@
   "name": "html-and-css",
   "version": "1.0.0",
   "description": "",
-  "main": "package-server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node package-server.js",
-    "dev": "nodemon package-server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
