@@ -665,7 +665,7 @@ background-color: white;
     align-items: center;
     z-index: 1000;
 }
-@media (max-width:400px){
+@media (max-width:500px){
     #image-viewer{
         display:none;
     }
