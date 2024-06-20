@@ -86,12 +86,32 @@
 
         <div class="contact-row">
           <div class="contact-left">
-            <form class="contact-form">
+            <!-- <form action="https://api.web3forms.com/submit"  method="post" class="contact-form">
+              <input type="hidden" name="access_key" value="bab62568-24c7-491b-8008-eae1de8e9e0f">
               <input type="text" id="Name" class="form-control" placeholder="Your Name" required autocomplete="off" />
               <input type="email" id="email" class="form-control" placeholder="Your Email" required autocomplete="off" />
               <textarea rows="4" id="message" class="form-control" placeholder="Your message" style="resize: none" autocomplete="off"></textarea>
-              <input type="submit" class="btn" value="Send Message" />
-            </form>
+              <button type="submit" class="btn" value="Send Message"></button> 
+            </form> -->
+            <form method="POST" id="form" class="contact-form">
+
+              <!-- Replace with your Access Key -->
+              <input type="hidden" name="access_key" value="c923a397-c3a4-43ae-9bc7-c1d553f1e562">
+          
+              <!-- Form Inputs. Each input must have a name="" attribute -->
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+              <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+              <textarea name="message" class="form-control" placeholder="message" required></textarea>
+          
+              <!-- Honeypot Spam Protection -->
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+          
+              <!-- Custom Confirmation / Success Page -->
+              <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+          
+              <button type="submit" class="btn" >Submit Form</button>
+              
+          </form>
             <!-- <form action=""></form> -->
           </div>
           <div class="contact-right my-2">

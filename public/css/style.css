@@ -377,7 +377,7 @@ header{
     font-size: 3.2rem;
 }
 .services-item h3{
-    margin: 1rem 0;
+                                                                                                              margin: 1rem 0;
     font-size: 1.6rem;
 }
 .services-item .btn{
@@ -980,4 +980,16 @@ text-decoration: line-through;}
     }
 
     
+ }
+ @media  (max-width:400px){
+    .site-brand{
+        font-size: medium;
+    }
+ }
+ #result{
+    font-size: larger;
+    text-align: center;
+    width: 100vw;
+    padding-top: 10px;
+    color: #1ec6b6;
  }
