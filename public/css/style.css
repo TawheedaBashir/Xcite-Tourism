@@ -4,10 +4,15 @@
     --dark: #0e1010;
     --trans: all 0.3s ease-in-out;
 }
+body{
+    margin: 0;
+    padding: 0;
+    
+}
 .navbar{
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     background-color: transparent;
     padding: 4px 0px 4px 4px; 
     z-index: 999;
@@ -88,6 +93,7 @@
 }
 .nav-item{
     margin: 1.6rem 0;
+   
 }
 .nav-link{
     -webkit-text-fill-color: white;
@@ -98,6 +104,7 @@
     -webkit-transition: var(--trans);
     -o-transition: var(--trans);
     transition: var(--trans);
+    
 }
 .nav-link:hover{
     /* opacity: 0.9; */
@@ -537,9 +544,9 @@ header.header-sm{
     min-height: 60vh;
 }
 /* gallery */
-.gallery-item{
+/* .gallery-item{
    
-    width: 55vh;
+    width: 100vw;
     height: 70vh;
 background-color: white;
 
@@ -549,7 +556,7 @@ background-color: white;
     position: relative;
     
     cursor: pointer;
-}
+} */
 /* .gallery-item::after{
     content: "";
     z-index: 1;
@@ -634,17 +641,26 @@ background-color: white;
 }
 #gallery {
     display: flex;
-    justify-content: center;
-    margin-left: 59px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .gallery-item {
-    margin: 10px;
+    max-width: 20rem;
     cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: baseline;
 }
 
 .gallery-item img {
-    max-width: 100%;
+    max-width: 100vw;
     transition: transform 0.3s;
 }
 
@@ -970,10 +986,13 @@ text-decoration: line-through;}
         font-size: 1.5rem;
      }
      .packages .box-cont .boxx .contentt .price span{
-        font-size: 1rem;
+        font-size: 1rem;}
+     .site-brand{
+            font-size: medium;
+        }
      }
     
- }
+ 
  @media  (max-width:800px){
     .test-item-info{
         font-size: 10px;
@@ -981,15 +1000,4 @@ text-decoration: line-through;}
 
     
  }
- @media  (max-width:400px){
-    .site-brand{
-        font-size: medium;
-    }
- }
- #result{
-    font-size: larger;
-    text-align: center;
-    width: 100vw;
-    padding-top: 10px;
-    color: #1ec6b6;
- }
+
